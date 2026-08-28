@@ -79,3 +79,45 @@ The application also provides a **model confidence score** for each prediction.
 
 ```bash
 git clone https://github.com/madheshw265-lang/Email-Purchase-Predictor.git
+
+
+
+📁 Project Structure
+Email-Purchase-Predictor/
+│
+├── assets/
+│   └── Banner.png
+│
+├── screenshots/
+│   ├── likely-to-buy.png
+│   ├── unlikely-to-buy.png
+│   └── model-performance.png
+│
+├── data/
+│   └── emails.csv
+│
+├── model/
+│   ├── email_model.pkl
+│   └── tfidf_vectorizer.pkl
+│
+├── app.py
+├── email_predictor.py
+├── train_model.py
+├── evaluate_model.py
+├── test_predictor.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+⚙️ Complete Project Workflow
+Step 1 — Prepare Dataset
+data/emails.csv
+Step 2 — Install Dependencies
+python -m pip install -r requirements.txt
+Step 3 — Train the Model
+python train_model.py
+Step 4 — Evaluate the Model
+python evaluate_model.py
+Step 5 — Test the Predictor
+python test_predictor.py
+Step 6 — Run the Web Application
+python -m streamlit run app.py
