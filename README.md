@@ -68,28 +68,7 @@ A **Streamlit web application** provides an interactive interface where users ca
 | 🎈 Streamlit | Web Application |
 | 📊 Matplotlib | Visualization |
 
----
-
-# 🧠 How It Works
-
-The project follows this Machine Learning pipeline:
-
-```text
-Customer Email
-      ↓
-Text Preprocessing
-      ↓
-TF-IDF Vectorization
-      ↓
-Numerical Features
-      ↓
-Random Forest Classifier
-      ↓
-Purchase Intent Prediction
-      ↓
-Confidence Score
-
----
+------
 
 # 👨‍💻 Author
 
